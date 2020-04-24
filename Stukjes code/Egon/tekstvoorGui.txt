@@ -1,0 +1,29 @@
+### TrainenGUI ###
+
+"The learning rate η" is een kleine parameter die het tempo bepaald waaraan het
+netwerk getraind wordt.
+
+v→v′=v-Δv=v−η∇C
+
+In bovenstaande formule is -∇C de gradient van de kostfunctie is. Dit toont de
+lokaal snelste weg naar een minimale kostfunctie.
+η mag niet te groot gekozen zodat ΔC≈∇C⋅Δv een goede benadering is, anders kan
+ΔC groter zijn dan 0 wat niet de gewenste uitkomst is.
+Als η te klein gekozen wordt zal de verandering van v: Δv te klein zijn
+waardoor het "Gradient descent" algortime heel traag zal werken.
+
+
+Een "mini-batch" is een klein groepje random gekozen training inputs. De
+grootte van deze groepjes moet groot genoeg zijn zodat de gemiddelde waarde van
+∇C van alle groepjes gelijk ongeveer gelijk is.
+Er wordt gebruik gemaakt van deze mini-batches om het trainen van het netwerk
+te versnellen.
+Stel, als voorbeeld, dat we een training set hebben van 60 000 voorbeelden en
+we kiezen van grootte van 10 voor de mini-batch dan versnellen we de schatting
+van de gradient met factor 6 000.
+
+
+Een epoch is een iteratie van de trainingsdata. Om de accuratie van het netwerk
+te verbeteren zullen we meerdere keren door de test data gaan.
+Bij het begin van een nieuwe epoch zal de trainingsdata door elkaar gegooid 
+worden en zal de data verdeeld worden in mini-batches.

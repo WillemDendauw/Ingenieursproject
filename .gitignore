@@ -1,0 +1,14 @@
+Project/Data/TrainingGUIData/
+/Stukjes code/Egon/Trainen/__pycache__/
+Project/.idea/
+Project/__pycache__/
+Project/CollectTrainingData/__pycache__
+Project/GUI/__pycache__
+Project/GUI/Network/__pycache__/
+Project/GUI/Output/__pycache__/
+Project/GUI/Painter/__pycache__/
+Project/GUI/Trainen/__pycache__/
+Project/GUI/Neuron/__pycache__/
+Project/Algoritme/__pycache__/
+.idea/
+Project/GUI/Neuron/__pycache__/

@@ -1,0 +1,20 @@
+""" NeuronGUI """
+Een neuron bestaat uit drie belangrijke elementen
+om een activiteit van de neuron te bepalen. Ze hebben
+meestal meerdere inputs, met elk een eigen weight.
+Er is ook nog een bias per Neuron.
+
+De activiteit van deze neuron wordt berekent door
+volgende formule:
+ x1*w1+x2*w2+x3*w3 + b = z
+ a = 1/(1+exp(-z))
+
+Omdat de activiteit van een neuron tussen 0 en 1 ligt,
+gebruiken we de sigmoid functie. Voor een zeer groot positief
+getal van z zal deze functie dicht bij 1 liggen. Als z dan een
+zeer klein negatief getal is gaat deze functie naar 0.
+
+In deze GUI tonen we welk effect de weights en bias
+heeft op de neuron. Sommige weights zullen een grotere
+invloed hebben op de activiteit dan anderen doordat het
+een grotere input heeft.

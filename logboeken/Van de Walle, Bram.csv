@@ -1,0 +1,62 @@
+Datum,Start,Einde,Plaats,Omschrijving
+12/02/19,15:45,17:45,Campus,Python leren oef xx tot yy
+13/02/19,19:00,21:00,Extern,Python leren oef xx tot yy
+19/02/19,15:45,17:45,Campus,Python leren oef xx tot yy
+11/03/19,13:30,16:45,Campus,Les 1 - Selectie algoritme
+12/03/19,20:00,22:00,Extern,Uitzoeken hoe gradient descent werkt door lineaire regressie toe te passen op een aantal punten door de gebruiker ingegeven.
+13/03/19,15:30,18:00,Extern,Verder bestuderen van eerste hoofdstuk van Neural Networks and Deep Learning: Using neural nets to recognize handwritten digits
+14/03/19,14:00,17:30,Extern,Hoofdstuk 1 van NN&DL (het boek) volledig afwerken
+18/03/19,13:30,17:45,Campus,Les 2 - Overleg: uitwerken van analysedocumenten
+22/03/19,18:30,20:00,Extern,Uitwerken van klassendiagram: GUI-gedeelte
+24/03/19,21:45,23:00,Extern,Verzamelen en vervolledigen van analysedocumenten
+25/03/19,12:30,17:00,Campus,Les 3 - Bedrijfsbezoek
+27/03/19,20:00,21:45,Extern,Op zoek gaan naar een grafische library: opzoekwerk verricht rond PyQt5
+28/03/19,08:40,11:00,Campus,Op zoek gaan naar een grafische library: opzoekwerk verricht rond PyGame en verder PyQt5 bestudeerd
+30/03/19,10:00,12:00,Extern,Verder PyQt5 bestuderen
+31/03/19,20:00,22:00,Extern,Poging tot het schrijven van een Painter QWidget
+01/04/19,13:30,14:10,Campus,Les 4 - Beslissen dat PyQt5 gebruikt wordt en verder werken aan de Painter QWidget
+01/04/19,14:15,14:25,Campus,Les 4 - Bespreking van eerste analysedocumenten met mevr. Brouns
+01/04/19,14:30,15:30,Campus,Les 4 - Verder werken aan de Painter
+01/04/19,15:30,17:30,Campus,Les 4 - Workshop Git
+04/04/19,09:30,11:00,Extern,Painter: nu kan er getekend worden op een QWidget. Er moet nog juist communicatie tussen Painter en Compressor_IMG kunnen verlopen
+06/04/19,18:00,19:15,Extern,Painter: dubbelklik is het wegdoen van het getekende cijfer; enkele mogelijke fouten opgevangen (met ingedrukte muis buiten de QWidget gaan); gezien dat zomaar QPoint's in getImage() omzetten naar 255 als grijswaarde niet voldoende is -> dit is het volgende wat ik moet doen en dan is de klasse Painter klaar
+07/04/19,14:00,17:00,Extern,Painter: poging tot afwerken van deze klasse maar gerealiseerd dat het toevoegen van een klasse Image een pak beter is
+07/04/19,21:00,23:00,Extern,Image: image bijna afgewerkt (zie TODO in code bovenaan)
+09/04/19,10:00,12:30,Extern,Image: image afgewerkt en getest (opm.: controleer de commentaren bij elke methode nog eens)
+14/04/19,14:00,17:00,Extern,Samenvattende documentatie van Image en Painter voorzien (zie /#Stukjes code/Bram/3 - Painter/Samenvattende uitleg - Painter en Image)
+15/04/19,11:00,12:00,Extern,Painter aanpassen aan Image en commentaar overlopen en updaten
+15/04/19,14:00,18:00,Extern,Image: getResizedImageToClosestMultiple()
+15/04/19,19:30,21:00,Extern,Painter aanpassen aan Image
+20/04/19,11:00,12:00,Extern,Painter en Image: API + toegankelijkheid van instantievariabelen en hulmethodes privatiseren
+20/04/19,12:00,13:50,Extern,Sequentiediagram van het tekenen en berekenen van het cijfer (TODO: Netwerk zal nog moeten uitgebreid worden dit zal een aparte sequentiediagram worden pas deze sequentiediagram dan nog aan met een soort black box met verwijzing naar ander sequentiediagram
+20/04/19,19:00,20:00,Extern,De basic layout van MainGUI toevoegen en een project-folder maken waarin de huidige versie te vinden is
+23/04/19,12:45,13:20,Campus,Groepsoverleg: concrete verdeling van de taken
+23/04/19,17:30,19:00,Extern,Output: visualisatie van output van netwerk (begin van de klasse)
+23/04/19,22:00,23:50,Extern,Output: verder aan de visualisatie werken: een testklasse GradientColorTest maken en OutputNode bijna afgewerkt; juist nog label toevoegen
+25/04/19,18:00,21:30,Extern,Output en OutputNode afgewerkt en geïmplementeerd in MainGUI
+28/04/19,19:30,22:00,Extern,Netwerk van boek testen met output van Painter; dit is nog niet gelukt
+29/04/19,13:30,17:45,Campus,Les 5 - Implementatie van CompressedImage; Peer programming met Willem; Troubleshooting
+04/05/19,13:00,17:00,Extern,Neuraal netwerk en output van Painter lokaal aanpassen om te kijken of de output van het netwerk correct is wanneer het getraind is (netwerk afkomstig van de git repository van de outeur van NN&DL
+05/05/19,13:00,14:00,Extern,Werk van gisteren afwerken en gecontroleerd
+05/05/19,14:00,17:30,Extern,Kijken hoe de training data er uit ziet; nadenken over hoe ik onze inupt kan wijzigen
+05/05/19,20:00,22:00,Extern,Een strategie uitgedacht om onze input aan te passen; ook al begonnen met implementatie
+06/05/19,08:00,09:00,Campus,Implementatie afgewerkt; de cijfers 0 t.e.m. 4 worden herkend; 5-9 niet
+06/05/19,13:30,17:45,Campus,Les 6 - Zoeken naar een oplossing dat de trainingdata niet overeen komt met onze input-data die Painter en CompressedImage ons leveren; allerlij parameters proberen aanpassen maar niks blijkt te werken...
+06/05/19,19:00,22:00,Extern,Begin van het schrijven van een applicatie om trainingdata te maken
+07/05/19,19:00,23:00,Extern,Verder werken aan de applicatie om trainingdata zelf te genereren
+08/05/19,14:00,15:00,Campus,Probleem opgelost met feit dat het omzetten van de gezette punten naar een matrix; bruikbaar voor het neuraal netwerk zo lang duurt -> de punten zelf herschalen en verschuiven
+08/05/19,15:10,18:00,Campus,Uitzoeken hoe ik modules uit andere directories kan importeren; Pycharm heeft hier geen probleem mee maar de command line wel en verder werken aan applicatie om trainingdata te maken
+08/05/19,21:00,23:00,Extern,Finaliseren van applicatie om trainingdata te genereren
+09/05/19,08:30,11:30,Campus,Het netwerk van Niels integreren en wat foutjes in het bestand oplossen
+09/05/19,19:00,23:00,Extern,De trainingfunctie integreren in TrainingGUI
+09/05/19,23:10,23:59,Extern,De tekst van NetwerkGUI geschreven
+10/05/19,00:00,01:30,Extern,De tekst van TrainingGUI en NeuronGUI (laatste is nog niet helemaal af; niet alle tekst staat op de GUI)
+13/05/19,07:00,07:30,Extern,Demofilmpje inspreken in verschillende stukjes
+13/05/19,11:45,12:15,Campus,Alle verschillende stukjes van het demofilmpje samensteken
+13/05/19,13:30,16:15,Campus,Les 6 - Eerste deel van de presentaties
+13/05/19,16:25,17:30,Campus,Les 6 - Tweede deel van de presentaties en daarna samen met mevr. Ongenae gekeken voor de executable -> alle padnamen relatief t.o.v. Main.py maken
+15/05/19,21:30,22:30,Extern,Commentaar bij Output en OutputNode gezet en al begonnen met klassendiagram
+16/05/19,18:00,20:00,Extern,UML-diagrammen maken
+16/05/19,21:00,23:59,Extern,UML-diagrammen maken
+17/05/19,00:00,03:20,Extern,UML-diagrammen maken en begonnen aan verslag
+17/05/19,10:30,13:50,Campus,Verslag afgewerkt
